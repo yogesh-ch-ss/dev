@@ -1,3 +1,4 @@
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
@@ -93,8 +94,9 @@ function App() {
                     accusantium, exercitationem itaque ipsa?
                 </p>
             </div>
-            <Skills />
 
+            <Skills />
+            <Contact />
             <Footer />
         </div>
     );
